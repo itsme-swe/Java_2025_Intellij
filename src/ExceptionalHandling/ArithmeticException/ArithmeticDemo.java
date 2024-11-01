@@ -19,7 +19,7 @@ public class ArithmeticDemo {
             System.out.println("The division of a and b is " + c);
         }
         catch (ArithmeticException e) {
-            System.out.println("Denominator should not be 0, try again.");
+            System.out.println("Denominator should not be 0, try again." + e);
         }
         System.out.println("Bye");
 
