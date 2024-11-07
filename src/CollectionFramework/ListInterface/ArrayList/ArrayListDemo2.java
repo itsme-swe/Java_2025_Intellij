@@ -19,7 +19,7 @@ public class ArrayListDemo2 {
         // Creating Iterator of ArrayList
         Iterator <Integer> iterator = list.iterator();
 
-        // traversing ArrayList using Iterator
+        // Traversing ArrayList using Iterator
         while (iterator.hasNext()) {
             System.out.println("Elements: " + iterator.next());
         }
