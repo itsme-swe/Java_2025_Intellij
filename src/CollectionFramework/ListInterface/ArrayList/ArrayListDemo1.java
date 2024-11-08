@@ -25,5 +25,6 @@ public class ArrayListDemo1 {
         System.out.println(lst);
 
         System.out.println(lst.size());
+
     }
 }

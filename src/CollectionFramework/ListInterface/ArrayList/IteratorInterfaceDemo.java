@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class ArrayListDemo2 {
+public class IteratorInterfaceDemo {
     public static void main(String[] args) {
 
         // Iterating ArrayList using Iterator Interface
@@ -23,6 +23,14 @@ public class ArrayListDemo2 {
         while (iterator.hasNext()) {
             System.out.println("Elements: " + iterator.next());
         }
+
+        /*
+          Elements: 10
+          Elements: 20
+          Elements: 30
+          Elements: 40
+          Elements: 20
+        */
 
     }
 }
