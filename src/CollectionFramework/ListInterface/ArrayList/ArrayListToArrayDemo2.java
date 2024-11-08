@@ -33,7 +33,8 @@ public class ArrayListToArrayDemo2 {
 
         System.out.println(name.set(3,"Juhu")); // set() method will replace the element present at the passed index_value
 
-        System.out.println(name);
+        System.out.println(name);   // [Harsh, Mukul, Sahu, Juhu, Adam]
+
 
 
     }
